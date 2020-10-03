@@ -9,7 +9,7 @@ $(function(){
 
  
   $(".close_button").on("click",function(){
-    $(this).parent(".content").slideUp("slow");
+    $(this).parent(".content").slideUp();
   })
 
 });

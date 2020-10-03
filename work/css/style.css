@@ -31,7 +31,7 @@ img{
   padding: 10px;
   margin: 10px 0;
   border-radius: 5px;
-  background-color: blueviolet;
+  background-color: rgb(240, 255, 32);
   color: #fff;
   cursor: pointer;
   position: absolute;
@@ -42,6 +42,7 @@ img{
 
 .close_button:hover{
   transform: rotate(360deg);
+  color: rgba(137, 43, 226, 0.26);
 }
 
 .img_button{

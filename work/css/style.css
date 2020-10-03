@@ -24,7 +24,7 @@ img{
   display: none;
   position: relative;
   padding: 30px;
-  background-color:  rgb(240, 255, 32);
+  background-color:  blueviolet;
   margin-bottom: 50px;
 }
 
@@ -33,8 +33,8 @@ img{
   padding: 10px;
   margin: 10px 0;
   border-radius: 5px;
-  background-color: blueviolet;
-  color: #fff;
+  background-color: rgb(240, 255, 32);
+  color:rgb(39, 3, 73);
   cursor: pointer;
   position: absolute;
   right: 30px;

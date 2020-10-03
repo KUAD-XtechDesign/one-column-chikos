@@ -10,6 +10,9 @@ body{
 .wrapper{
   background-color: rgb(240, 255, 32);
 }
+.h2{
+  color: rgb(52, 0, 100);
+}
 
 img{
   max-width: 100%;

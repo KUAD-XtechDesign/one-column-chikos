@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 
+
+.index h1 a,{.index h1 a, .site_title a {
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.2s;
+  color: blueviolet;
+}
+
+}
+.a{
+  font-family: 'Lato',YuGothic, '游ゴシック',"メイリオ",arial,helvetica,clean,sans-serif;
+}
 body{
   line-height: 2;
   font-family: 'Sacramento';

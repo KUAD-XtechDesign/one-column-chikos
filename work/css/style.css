@@ -1,23 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 
 
-.index h1 a{
-  text-decoration: none;
-  display: inline-block;
-  transition: 0.2s;
-  color: blueviolet;
-}
 
 .a{
   font-family: 'Lato',YuGothic, '游ゴシック',"メイリオ",arial,helvetica,clean,sans-serif;
+  color: blueviolet;
 }
-body{
-  line-height: 2;
-  font-family: 'Sacramento';
-  background-color: rgb(240, 255, 32);
-  color: #fff;
+html{
+  width: 100%;
+	padding: 0;
 }
 
+body{
+  
+	background-color: #fafafa;
+	font-family: 'Lato', "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体",  'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+	font-feature-settings: "palt";
+	letter-spacing:0.08em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color:#4c4543;
+	font-weight: normal;
+	font-size: 100%;
+	letter-spacing:0.06em;
+}
 .wrapper{
   background-color: rgb(240, 255, 32);
 }

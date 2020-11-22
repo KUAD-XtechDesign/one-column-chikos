@@ -5,23 +5,99 @@
 header{
     
     font-family:'Noto Serif JP', sans-serif;
+    border-bottom: 1px solid #ddd;
+    background-color: #fcfcfc;
+    position:relative;
     
   }
-
+  @media screen and (max-width:480px) { 
+    header{
+       position: fixed;
+       width:100%;
+       top:0;
+       z-index: 1;
+    }
+}
 
 body{
-    background-color: #b7f1ff;
+    background-color:rgb(29,32,136);
       
   }
   
-  h1{
-    background-color: rgb(248, 247, 179);
-    color: blue;
+ 
+  .ribbon2 {
+    display: inline-block;
+    position: relative;
+    height: 60px;
+    line-height: 60px;
+    width: 100%;
     text-align: center;
+    padding: 7px 0;
+    font-size: 36px;/*フォントサイズ*/
+    font-family:'Noto Serif JP', sans-serif;
+    background: #78d0f5;/*背景色*/
+    color: #f5fbff;/*文字色*/
+    box-sizing: border-box;
   }
   
+  .ribbon2 h3 {
+    margin: 0;
+    padding: 0 30px;
+    border-top: dashed 1px #f5fbff;/*上の破線*/
+    border-bottom: dashed 1px #f5fbff;/*下の破線*/
+    line-height: 46px;
+  }
   
+  .ribbon2:before, .ribbon2:after {
+    position: absolute;
+    content: '';
+    width: 0px;
+    height: 0px;
+    z-index: 1;
+  }
   
+  .ribbon2:before {
+    /*左端の山形*/
+    top: 0;
+    left: 0;
+    border-width: 30px 0px 30px 15px;
+    border-color: transparent transparent transparent rgb(29,32,136);
+    border-style: solid;
+  }
+  
+  .ribbon2:after {
+    /*右端の山形*/
+    top: 0;
+    right: 0;
+    border-width: 30px 15px 30px 0px;
+    border-color: transparent rgb(29,32,136);
+    border-style: solid;
+  }
+  
+  h2{
+      text-align: center;
+  }
+  h1{
+      text-align: left;
+  }
+  
+  .box2 {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    font-family:'Noto Serif JP', sans-serif;
+    color: rgb(28, 24, 89,);/*文字色*/
+    background: #f5fbff;
+    border: solid 3px #78c2ff;/*線*/
+    border-radius: 10px;/*角の丸み*/
+    text-align: center;
+   
+
+}
+.box2 p {
+    margin: 0; 
+    padding: 0;
+}
   img{
     max-width: 100%;
   }
@@ -38,3 +114,49 @@ body{
     display: none;
     padding: 30px;
   }
+
+    .btn-circle-stitch {
+        display: inline-block;
+        text-decoration: none;
+        background: #78c2ff;
+        color:rgb(28, 24, 89,);
+        width: 120px;
+        height: 120px;
+        line-height: 120px;
+        border-radius: 50%;
+        text-align: center;
+        overflow: hidden;
+        box-shadow: 0px 0px 0px 5px #78c2ff;
+        border: dashed 1px #f5fbff;
+        transition: .4s;
+      }
+      
+      .btn-circle-stitch:hover {
+        background: #78c2ff;
+        box-shadow: 0px 0px 0px 5px #78c2ff;
+      }
+
+
+  footer{
+    background-color:#f5fbff;
+    color:rgb(28, 24, 89,);
+    font-size: 100%;
+    font-family:'Noto Serif JP', sans-serif;
+    padding:10px;
+    min-height:50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+   
+}
+
+
+@media screen and (min-width:481px) { 
+    footer{
+        position: fixed;
+        bottom:0;
+        width:100%;
+    }
+}

@@ -1,0 +1,35 @@
+
+
+body{
+    background-color: #b7f1ff;
+      
+  }
+  
+  h1{
+    background-color: rgb(248, 247, 179);
+    color: blue;
+    text-align: center;
+  }
+  
+  .wrapper{
+    max-width: 1000px;
+    background-color: #fff;
+    margin: 0 auto;
+  }
+  
+  img{
+    max-width: 100%;
+  }
+  
+  .img_button img{
+    display: block;
+  }
+  
+  .img_button:hover{
+    opacity: 0.8;
+  }
+  
+  .content{
+    display: none;
+    padding: 30px;
+  }

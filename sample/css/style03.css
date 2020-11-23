@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP');
 @import url('https://fonts.googleapis.com/css?family=Sawarabi+Mincho');
@@ -17,12 +18,14 @@ header{
      top:0;
      z-index: 1;
   }
+}
 
 body{
   background-color: #DCDCDC;
   font-family:'Noto Serif JP', sans-serif;
   color:rgb(28, 24, 89,);
 }
+
 .ribbon5 {
   display: inline-block;
   position: relative;
@@ -57,56 +60,32 @@ body{
   border-style: solid;
 }
 
-.wrapper{
-  max-width: 1000px;
-  background-color: #fff;
-  margin: 0 auto;
+
+.h8{
+  text-align: center;
 }
 
-img{
-  max-width: 100%;
-}
 
-.img_button img{
-  display: block;
-}
+footer{
+  background-color:#7f9dfb;
+  color:#FFF;
+  font-size: 100%;
+  font-family:'Noto Serif JP', sans-serif;
+  padding:10px;
+  min-height:50px;
 
-.img_button:hover{
-  opacity: 0.8;
-}
-
-.content{
-  display: none;
-  padding: 30px;
-}
-
-.close_button{
-  display: inline-block;
-  padding: 10px;
-  margin: 10px 0;
-  border-radius: 5px;
-  background-color: rgb(255, 136, 0);
-  color: #fff;
-  cursor: pointer;
-}
-
-.img_button{
-  transition: 0.5s all;
-  cursor: pointer;
-}
-
-/* 横並び追加 */
-.txt_img{
   display: flex;
+  align-items: center;
+  justify-content: center;
+
+ 
 }
 
-.img{
-  width: 20%;
-}
 
-.txt{
-  width: 80%;
-  padding: 10px;
-}
-
+@media screen and (min-width:481px) { 
+  footer{
+      position: fixed;
+      bottom:0;
+      width:100%;
+  }
 }

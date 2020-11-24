@@ -3,6 +3,8 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP');
 @import url('https://fonts.googleapis.com/css?family=Sawarabi+Mincho');
 
+
+
 img{
   max-width: 100%;
 }
@@ -71,6 +73,7 @@ body{
 
 .azisai{
   width: 45%;
+  text-align: center;
 }
 
 .yoko{
@@ -90,6 +93,8 @@ body{
     font-size: 26px;/*文字サイズ*/
     font-family:'Noto Serif JP', sans-serif;
     margin-bottom: 20px;
+    width: 500px;
+    text-align: center;
   }
 
 

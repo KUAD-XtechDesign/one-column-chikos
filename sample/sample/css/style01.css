@@ -17,7 +17,7 @@ header{
 
 
 body{
-    background-color:rgb(29,32,136);
+    background-color:#DCDCDC;
       
   }
   
@@ -32,8 +32,8 @@ body{
     padding: 7px 0;
     font-size: 5vw;/*フォントサイズ*/
     font-family:'Noto Serif JP', sans-serif;
-    background: #78d0f5;/*背景色*/
-    color: #f5fbff;/*文字色*/
+    background: #7f9dfb;/*背景色*/
+    color: #fff;/*文字色*/
     box-sizing: border-box;
     margin-bottom: 20px;
   }
@@ -41,8 +41,8 @@ body{
   .ribbon2 h3 {
     margin: 0;
     padding: 0 30px;
-    border-top: dashed 1px #f5fbff;/*上の破線*/
-    border-bottom: dashed 1px #f5fbff;/*下の破線*/
+    border-top: dashed 1px #fff;/*上の破線*/
+    border-bottom: dashed 1px #fff;/*下の破線*/
     line-height: 46px;
   }
   
@@ -59,7 +59,7 @@ body{
     top: 0;
     left: 0;
     border-width: 30px 0px 30px 15px;
-    border-color: transparent transparent transparent rgb(29,32,136);
+    border-color: transparent transparent transparent #DCDCDC;
     border-style: solid;
   }
   
@@ -68,7 +68,7 @@ body{
     top: 0;
     right: 0;
     border-width: 30px 15px 30px 0px;
-    border-color: transparent rgb(29,32,136);
+    border-color: transparent #DCDCDC;
     border-style: solid;
   }
   
@@ -89,8 +89,8 @@ body{
     font-weight: bold;
     font-family:'Noto Serif JP', sans-serif;
     color: rgb(28, 24, 89,);/*文字色*/
-    background: #f5fbff;
-    border: solid 3px #78c2ff;/*線*/
+    background: #fff;
+    border: solid 3px #7f9dfb;/*線*/
     border-radius: 10px;/*角の丸み*/
     text-align: center;
     flex:1;
@@ -130,7 +130,7 @@ body{
     .btn-circle-stitch {
         display:flex;
         text-decoration: none;
-        background: #78c2ff;
+        background: #7f9dfb;
         color:rgb(28, 24, 89,);
         width: 120px;
         height: 120px;
@@ -139,20 +139,20 @@ body{
         border-radius: 50%;
         text-align: center;
         
-        box-shadow: 0px 0px 0px 5px #78c2ff;
-        border: dashed 1px #f5fbff;
+        box-shadow: 0px 0px 0px 5px #7f9dfb;
+        border: dashed 1px #fff;
         transition: .4s;
       }
       
       .btn-circle-stitch:hover {
-        background: #78c2ff;
-        box-shadow: 0px 0px 0px 5px #78c2ff;
+        background: #7f9dfb;
+        box-shadow: 0px 0px 0px 5px #7f9dfb;
       }
 
 
   footer{
-    background-color:#f5fbff00;
-    color:rgb(28, 24, 89,);
+    background-color:#7f9dfb;
+    color:#fff;
     font-size: 100%;
     font-family:'Noto Serif JP', sans-serif;
     padding:10px;
